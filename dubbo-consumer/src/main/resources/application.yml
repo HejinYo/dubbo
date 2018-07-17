@@ -1,0 +1,9 @@
+## Dubbo 服务消费者配置
+spring:
+  application:
+    name: dubbo-custoner
+  dubbo:
+    registry: zookeeper://127.0.0.1:2181
+    protocol:
+      port: 20800
+      name: dubbo
